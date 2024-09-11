@@ -11,7 +11,7 @@
     <div class="tabel">
         <h2>diskon</h2>
     <form method="post">
-        <input type="number" name="input_number"><br>
+        <input type="number" name="input_number" required><br>
         <input type="submit" value="input">
     </form>
 <?php 
