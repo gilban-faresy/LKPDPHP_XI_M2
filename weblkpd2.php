@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weblkpd2.css">
     <title>Document</title>
 </head>
 <body>
+    <center>
+    <div class="tabel">
+        <h2>diskon</h2>
     <form method="post">
         <input type="number" name="input_number"><br>
         <input type="submit" value="input">
@@ -39,5 +43,7 @@ $setelah_diskon = $uang - $har_sel;
 }
 }
 ?>
+</div>
+</center>
 </body>
 </html>
